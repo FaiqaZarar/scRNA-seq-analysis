@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files
+*.h5ad
+*.loom
+*.h5
+*.mtx
+*.tar.gz
+
+# Figures (generated at runtime)
+figures/
+*.png
+*.pdf
+*.svg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
