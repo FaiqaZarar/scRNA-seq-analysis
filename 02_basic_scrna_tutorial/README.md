@@ -284,12 +284,29 @@ print(adata)
 | 7 | Dendritic Cells | FCER1A, CST3 | ~18 |
 | 8 | Megakaryocytes | PPBP | ~15 |
 
-### 5.2 Output Files
+### 5.2 PCA Elbow Plot
+
+![PCA Elbow Plot](outputs/pca_variance_ratio_elbow.png)
+
+### 5.3 UMAP — Leiden Clusters
+
+![UMAP Clusters](outputs/umap_clusters.png)
+
+### 5.4 UMAP — Annotated Cell Types
+
+![UMAP Cell Types](outputs/umap_celltypes.png)
+
+### 5.5 Marker Genes Per Cluster
+
+![Marker Genes](outputs/rank_genes_groups_leiden_markers.png)
+
+### 5.6 Output Files
 
 | File | Description |
 |---|---|
 | `clustered_adata.h5ad` | AnnData with UMAP coordinates, Leiden labels, and cell type annotations |
 | `umap_clusters.png` | UMAP plot colored by Leiden clusters |
+| `umap_celltypes.png` | UMAP plot colored by annotated cell types |
 | `marker_genes.csv` | Top 20 Wilcoxon marker genes per cluster |
 
 ---

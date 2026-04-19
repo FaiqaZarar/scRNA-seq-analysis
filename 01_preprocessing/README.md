@@ -317,14 +317,13 @@ print(adata)
 
 ### 5.2 QC Plots
 
-QC violin plots and scatter plots are saved to `outputs/`:
+**QC Metrics — Violin Plot (before filtering)**
 
-| Figure | Description |
-|---|---|
-| `qc_before_filtering.png` | Violin plots of QC metrics before filtering |
-| `mt_scatter.png` | MT% vs total counts scatter |
-| `genes_scatter.png` | n_genes vs total counts scatter |
-| `hvg.png` | Highly variable gene dispersion plot |
+![QC Violin Plot](outputs/violin_qc_before_filtering.png)
+
+**Highly Variable Genes — Dispersion Plot**
+
+![HVG Plot](outputs/filter_genes_dispersion_hvg.png)
 
 ---
 
